@@ -41,7 +41,8 @@ async def send(ctx, *, content: str):
                 await client.say("DM Sent To : {} :white_check_mark:  ".format(member))
             except:
                 print("can't")
-                await client.say("DM can't Sent To : {} :x: ".format(member))
+                await client.say("DM can't Sent To : {} :x: ".format(member))   
+
 
 
 client.run("NzUwNTA2OTAzNTczODg5MDc1.X07iBQ.wezPIT7-GZxI7PyJiwvAbYqAewE")                
